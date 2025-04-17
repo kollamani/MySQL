@@ -1,0 +1,18 @@
+#Start Transaction:
+    This command marks the beginning of a transaction.
+    All the subsequent SQL statements/queries with in the same session will be considered part of the same transaction until it is either committed or rolled back.
+
+    Note: Without beginning the transaction we cannot rollback.
+
+    committed ------ saved permanently in Database.
+    rollback-------- Revert the changes.
+
+    Syntax:
+    START TRANSACTION;(or)
+    BEGIN;(or)
+    Begin transaction;
+
+    #To know the Transactions
+    select @@Trancount;
+    show session status like 'Com_commit';
+    show session status like 'Com_rollback';

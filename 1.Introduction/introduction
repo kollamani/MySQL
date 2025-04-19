@@ -48,7 +48,7 @@ Introduction to DB Language
 .It is used to Create, Read, Update and Delete the data from database.
 
 Database languages are different types
-1. Data Definition language(DDL)  
+1. Data Definition language(DDL)
 2. Data Manipulation language(DML)
 3. Data Retrival language(DRL)
 4. Data Control language(DCL)
